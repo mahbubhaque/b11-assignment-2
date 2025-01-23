@@ -156,3 +156,231 @@
   position: relative;
   align-self: center;
 }
+
+.box-container .box-1 h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #202020;
+}
+.box-container .box-1 p {
+  color: #797878;
+}
+.box-container .box-btn-1 button {
+  font-weight: bold;
+  border: none;
+  color: #64c9fff5;
+  background: none;
+}
+/* box */
+.box-container .box-2 {
+  padding: 4rem 3.1rem;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.6rem;
+  border: 1px solid rgb(255, 244, 220);
+  box-shadow: inset 0px 0px 30px 1px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgba(255, 244, 220, 0.927),
+      rgba(255, 255, 255, 0) 42%
+    ),
+    rgba(255, 255, 255, 0.947);
+  border-radius: 20px;
+}
+.box-container .box-2 img {
+  width: 135px;
+  height: 135px;
+  position: relative;
+  align-self: center;
+}
+
+.box-container .box-2 h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+.box-container .box-2 p {
+  color: #808080f0;
+}
+.box-container .box-btn-2 button {
+  font-weight: bold;
+  border: none;
+  color: #ffb406;
+  background: none;
+}
+/* box  */
+.box-container .box-3 {
+  padding: 64px 50px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.6rem;
+  box-shadow: inset 0px 0px 28px 1.1px rgba(0, 0, 0, 0.05);
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 44%
+    ),
+    rgb(255, 255, 255);
+  border: 1px solid rgba(242, 232, 255, 0.97);
+  border-radius: 19px;
+  flex-wrap: wrap;
+}
+.box-container .box-3 img {
+  width: 135px;
+  height: 135px;
+  position: relative;
+  align-self: center;
+}
+
+.box-container .box-3 h5 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #202020;
+}
+.box-container .box-3 p {
+  color: #808080;
+}
+.box-container .box-btn-3 button {
+  font-weight: bold;
+  border: none;
+  color: #8700ff;
+  background: none;
+}
+
+.arrow-container {
+  justify-content: center;
+  gap: 0.7rem;
+  margin: 5rem auto;
+  cursor: pointer;
+}
+.left-arrow {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: orange;
+  text-align: center;
+  position: relative;
+  align-content: center;
+}
+.right-arrow {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: orange;
+  text-align: center;
+  position: relative;
+  align-content: center;
+}
+.left-arrow::before {
+  content: "<";
+}
+.right-arrow::before {
+  content: ">";
+}
+
+/* our story */
+
+.our-stories {
+  max-width: 1440px;
+  background-image: url("assets/bg.png"),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  background-size: cover;
+  margin: 0 auto;
+}
+.our-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.big-box {
+  display: grid;
+  max-width: 540px;
+  background-color: white;
+  border-radius: 1rem;
+}
+.big-box img {
+  border-radius: 1rem 1rem 0 0;
+}
+.big-box h5 {
+  margin-bottom: 40px;
+  padding-left: 38px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.big-box p {
+  margin-bottom: 40px;
+  padding-left: 38px;
+  color: #666666f6;
+}
+
+.our-btn button {
+  padding: 16px 24px;
+  color: white;
+  background-color: #3cd8e8;
+  border-radius: 3rem;
+  border: none;
+  position: relative;
+  top: -22px;
+  left: 38px;
+  margin-top: 0;
+}
+
+.box-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.img-box-2 {
+  border-radius: 16px;
+  background-color: white;
+}
+.img-box-2 img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+.img-box-2 button {
+  padding: 12px 20px;
+  color: white;
+  background-color: #95b226;
+  border-radius: 3rem;
+  border: none;
+  position: relative;
+  top: -22px;
+  left: 37px;
+}
+.img-box-2 h6 {
+  color: black;
+  padding-left: 38px;
+  padding-right: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.img-box-3 {
+  border-radius: 16px;
+  background-color: white;
+}
+.img-box-3 img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+}
+.img-box-3 button {
+  padding: 012px 20px;
+  color: white;
+  background-color: #5d58f0;
+  border-radius: 3rem;
+  border: none;
+  position: relative;
+  top: -22px;
+  left: 37px;
+}
+.img-box-3 h6 {
+  color: black;
+  padding-left: 38px;
+  padding-right: 12px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
